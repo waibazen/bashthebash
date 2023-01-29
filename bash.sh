@@ -1,5 +1,5 @@
 #! /bin/bash
-
+echo "test hello world"
 echo "hello world "
 name=$1
 
