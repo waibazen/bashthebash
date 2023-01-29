@@ -1,0 +1,14 @@
+system@zenmaster:/mnt/c/Users/prahl/Desktop/BashtheBash$ ifconfig | grep broadcast
+        inet 172.27.226.215  netmask 255.255.240.0  broadcast 172.27.239.255
+system@zenmaster:/mnt/c/Users/prahl/Desktop/BashtheBash$ ifconfig | grep broadcast | awk '{print $2}'
+172.27.226.215
+system@zenmaster:/mnt/c/Users/prahl/Desktop/BashtheBash$ alias myipadress="ifconfig | grep broadcast | awk '{print $2}'"
+system@zenmaster:/mnt/c/Users/prahl/Desktop/BashtheBash$ myipaddress
+myipaddress: command not found
+system@zenmaster:/mnt/c/Users/prahl/Desktop/BashtheBash$ alias myipadress="echo $(ifconfig | grep broadcast | awk '{print $2}')"
+system@zenmaster:/mnt/c/Users/prahl/Desktop/BashtheBash$ myipadress
+172.27.226.215
+
+
+system@zenmaster:/mnt/c/Users/prahl/Desktop/BashtheBash$ bash bash.sh
+i firmly believe that hero is the best zero for the office of boro

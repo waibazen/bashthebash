@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "ready to start your pushup?"
+ x=1
+while[[ $x -le 10 ]n
+do
+	echo"puspups:$x"
+	(( x++ ))
+done

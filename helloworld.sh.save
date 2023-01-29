@@ -1,0 +1,10 @@
+ #! /bin/bash
+echo "hello world"
+count=12
+
+if [ $count -eq 9]
+then
+	echo "count condition is true"
+else 
+	echo "count is false"
+fi
