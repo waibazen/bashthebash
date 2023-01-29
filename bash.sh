@@ -1,6 +1,6 @@
 #! /bin/bash
 
-
+echo "hello world "
 name=$1
 
 user=$(whoami)
